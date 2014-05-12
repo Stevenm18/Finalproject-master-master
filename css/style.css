@@ -593,32 +593,36 @@ Index Page (homepage)
     background-color: violet;
   }
 }
+/* line 18, ../scss/pages/_index.scss */
+#home .banner {
+  background-color: #FFB6C1;
+}
 @media only screen and (min-width: 40em) {
   /* line 9, ../scss/pages/_index.scss */
   #home {
     background-color: red;
   }
-  /* line 25, ../scss/pages/_index.scss */
+  /* line 29, ../scss/pages/_index.scss */
   #home .date {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
     background-color: #808080;
   }
-  /* line 29, ../scss/pages/_index.scss */
+  /* line 33, ../scss/pages/_index.scss */
   #home .location {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 33, ../scss/pages/_index.scss */
+  /* line 37, ../scss/pages/_index.scss */
   #home .intro {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
     background-color: #FFE4C4;
   }
-  /* line 38, ../scss/pages/_index.scss */
+  /* line 42, ../scss/pages/_index.scss */
   #home .banner {
     background-color: #FFB6C1;
   }
@@ -628,7 +632,7 @@ Index Page (homepage)
   #home {
     background-color: green;
   }
-  /* line 51, ../scss/pages/_index.scss */
+  /* line 55, ../scss/pages/_index.scss */
   #home .track {
     width: 50%;
     padding: 0 15px;
