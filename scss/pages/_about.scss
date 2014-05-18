@@ -33,19 +33,23 @@ About Page
 	//x-small =============================================
 	@include breakpoint(x-small){
 		background-color: violet;
+	}
+		.banner{
+				background-color:#FFB6C1; 
+
 
 	}//end x-small breakpoint
 
 	.about{
-			@include col(2,6);
+			@include col(8,12);
 		}
 
 		.DateAndTime{
-			@include col(2,6);
+			@include col(4,12);
 		}
 
 		.address{
-			@include col(2,6);
+			@include col(4,12);
 		}
 
 		.googlemap{
@@ -78,6 +82,8 @@ About Page
 			clear: both;
 		}
 		
+		
+
 	}//end small breakpoint
 
 
@@ -109,6 +115,8 @@ About Page
 		.googlemap{
 			clear: both;
 		}
+
+
 
 	}//end large breakpoint
 

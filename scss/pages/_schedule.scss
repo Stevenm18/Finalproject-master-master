@@ -24,7 +24,14 @@ Schedule Page
 	//small =============================================
 	@include breakpoint(small){
 		background-color: red;
-		
+		.CF{
+			@include col(8,12);
+			background-color: #808080;
+		}
+		.sessionsI{
+			@include col(4,12);
+			background-color: #808080;
+		}
 	}//end small breakpoint
 
 

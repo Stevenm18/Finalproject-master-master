@@ -675,6 +675,20 @@ Schedule Page
   #schedule {
     background-color: red;
   }
+  /* line 27, ../scss/pages/_schedule.scss */
+  #schedule .CF {
+    width: 66.66667%;
+    padding: 0 15px;
+    float: left;
+    background-color: #808080;
+  }
+  /* line 31, ../scss/pages/_schedule.scss */
+  #schedule .sessionsI {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+    background-color: #808080;
+  }
 }
 @media only screen and (min-width: 50em) {
   /* line 9, ../scss/pages/_schedule.scss */
@@ -793,25 +807,29 @@ About Page
     background-color: violet;
   }
 }
-/* line 39, ../scss/pages/_about.scss */
+/* line 37, ../scss/pages/_about.scss */
+#about .banner {
+  background-color: #FFB6C1;
+}
+/* line 43, ../scss/pages/_about.scss */
 #about .about {
-  width: 33.33333%;
+  width: 66.66667%;
   padding: 0 15px;
   float: left;
 }
-/* line 43, ../scss/pages/_about.scss */
+/* line 47, ../scss/pages/_about.scss */
 #about .DateAndTime {
   width: 33.33333%;
   padding: 0 15px;
   float: left;
 }
-/* line 47, ../scss/pages/_about.scss */
+/* line 51, ../scss/pages/_about.scss */
 #about .address {
   width: 33.33333%;
   padding: 0 15px;
   float: left;
 }
-/* line 51, ../scss/pages/_about.scss */
+/* line 55, ../scss/pages/_about.scss */
 #about .googlemap {
   clear: both;
 }
@@ -820,25 +838,25 @@ About Page
   #about {
     background-color: red;
   }
-  /* line 65, ../scss/pages/_about.scss */
+  /* line 69, ../scss/pages/_about.scss */
   #about .about {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
   }
-  /* line 69, ../scss/pages/_about.scss */
+  /* line 73, ../scss/pages/_about.scss */
   #about .DateAndTime {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 73, ../scss/pages/_about.scss */
+  /* line 77, ../scss/pages/_about.scss */
   #about .address {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 77, ../scss/pages/_about.scss */
+  /* line 81, ../scss/pages/_about.scss */
   #about .googlemap {
     clear: both;
   }
@@ -854,25 +872,25 @@ About Page
   #about {
     background-color: yellow;
   }
-  /* line 97, ../scss/pages/_about.scss */
+  /* line 103, ../scss/pages/_about.scss */
   #about .about {
     width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 101, ../scss/pages/_about.scss */
+  /* line 107, ../scss/pages/_about.scss */
   #about .DateAndTime {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 105, ../scss/pages/_about.scss */
+  /* line 111, ../scss/pages/_about.scss */
   #about .address {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 109, ../scss/pages/_about.scss */
+  /* line 115, ../scss/pages/_about.scss */
   #about .googlemap {
     clear: both;
   }
